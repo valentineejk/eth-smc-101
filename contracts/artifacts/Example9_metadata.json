@@ -7,19 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "increaseMyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUnit",
+				"name": "myName",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -28,14 +21,14 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_myUnit",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_myName",
+						"type": "string"
 					}
 				],
-				"name": "setMyUint",
+				"name": "updateName",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -52,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/example2.sol": "Example2"
+			"contracts/example9.sol": "Example9"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/example2.sol": {
-			"keccak256": "0x5c4a34b659b9dfa3527482e9a3b6042c6b46ceb2ca19fabf96667d1165435a2c",
+		"contracts/example9.sol": {
+			"keccak256": "0x469c7d3150386ebefebcbb2e2105547de25c66e5c1ea323673169d4ab31d57c5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b8a7088950b6b699ab17469a044a8b893d714a416d60c4277e3b59f65ecff59f",
-				"dweb:/ipfs/QmcvMp783sQyvA6k4au7afmpLDtQMmf3jswH5drC4qivP7"
+				"bzz-raw://a5db78ce4dae9d65a671946ee7605b33823104917de8552a5a8bf526832ec3e6",
+				"dweb:/ipfs/QmRjYLTR4csecsy15LFV9hp6H8yM7Xjw45ur5t8J77Xk7K"
 			]
 		}
 	},
